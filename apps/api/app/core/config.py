@@ -10,6 +10,10 @@ class Settings(BaseSettings):
     app_version: str = "0.1.0"
     app_env: str = "development"
     frontend_url: str = "http://localhost:3000"
+    uni_base_url: str | None = None
+    uni_service_key: SecretStr | None = None
+    uni_webhook_secret: SecretStr | None = None
+    uni_university_id: str | None = None
     supabase_url: str | None = None
     supabase_secret_key: SecretStr | None = None
     advisor_llm_api_key: SecretStr | None = None

@@ -29,7 +29,6 @@ import {
   TrashIcon,
 } from "@/components/ui/Icons";
 
-const DEFAULT_PERIOD = "2024-1";
 const NOTICE_VERSION = "2026-v1";
 
 export default function MockRegistrationPage() {
@@ -37,7 +36,8 @@ export default function MockRegistrationPage() {
   const client = useAuthenticatedApi();
   const identities = useCourseIdentities(auth.isAuthenticated);
 
-  const [targetPeriod, setTargetPeriod] = useState<string>(DEFAULT_PERIOD);
+  const [targetPeriod, setTargetPeriod] = useState<string>("");
+  const [periods, setPeriods] = useState<Array<{ id: string; code: string; label: string; is_current: boolean }>>([]);
   const [intent, setIntent] = useState<StudentIntentResponse | null>(null);
   const [error, setError] = useState<DashboardError | null>(null);
   const [loading, setLoading] = useState(true);
@@ -76,8 +76,18 @@ export default function MockRegistrationPage() {
 
   useEffect(() => {
     if (auth.isAuthenticated) {
-      void fetchCurrentIntent(targetPeriod);
+      const api = new StudentApiService(client);
+      void api.getAcademicPeriods().then((items) => {
+        setPeriods(items);
+        const current = items.find((period) => period.is_current) ?? items[0];
+        if (current) setTargetPeriod(current.id);
+        else { setError("SERVICE_UNAVAILABLE"); setLoading(false); }
+      }).catch(() => { setError("SERVICE_UNAVAILABLE"); setLoading(false); });
     }
+  }, [auth.isAuthenticated, client]);
+
+  useEffect(() => {
+    if (auth.isAuthenticated && targetPeriod) void fetchCurrentIntent(targetPeriod);
   }, [auth.isAuthenticated, targetPeriod]);
 
   const handleAddCourse = (e: React.FormEvent) => {
@@ -179,9 +189,7 @@ export default function MockRegistrationPage() {
             className="rounded-xl border border-[#C9A45C]/30 bg-[#14201B] px-3 py-1.5 font-mono text-xs font-bold text-[#F3E9D8] focus:border-[#D9884A] focus:outline-hidden"
             dir="ltr"
           >
-            <option value="2024-1">2024-1 (الفصل الأول)</option>
-            <option value="2024-2">2024-2 (الفصل الثاني)</option>
-            <option value="2024-3">2024-3 (الفصل الصيفي)</option>
+            {periods.map((period) => <option key={period.id} value={period.id}>{period.label}</option>)}
           </select>
         </div>
       </div>

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { UniversityLiveSync } from "@/components/navigation/UniversityLiveSync";
 import { useAuth } from "@/auth/auth-provider";
 import {
   AdvisorIcon,
@@ -170,6 +171,7 @@ export function StudentShell({ children }: { children: ReactNode }) {
             <h1 className="truncate text-base font-bold text-[#F3E9D8]">{currentLabel}</h1>
           </div>
         </div>
+        <UniversityLiveSync />
         <Link href="/student/advisor" className="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-xl bg-[#0E5A4F] px-3 text-xs font-semibold text-white transition-colors hover:bg-[#103D35]">
           <AdvisorIcon className="h-4 w-4" aria-hidden="true" />
           <span>اسأل مرشدي</span>
@@ -186,10 +188,10 @@ export function StudentShell({ children }: { children: ReactNode }) {
               <p className="text-[11px] font-semibold text-[#B7A78E]">بوابتك الأكاديمية</p>
               <h1 className="mt-1 text-xl font-bold tracking-tight text-[#F3E9D8]">{currentLabel}</h1>
             </div>
-            <Link href="/student/advisor" className="button-primary min-h-10 px-4 text-sm">
+            <div className="flex items-center gap-2"><UniversityLiveSync /><Link href="/student/advisor" className="button-primary min-h-10 px-4 text-sm">
               <AdvisorIcon className="h-4 w-4" aria-hidden="true" />
               <span>اسأل مرشدي</span>
-            </Link>
+            </Link></div>
           </div>
           {children}
         </section>

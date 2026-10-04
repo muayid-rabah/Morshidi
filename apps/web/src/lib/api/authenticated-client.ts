@@ -44,7 +44,7 @@ export class AuthenticatedApiClient {
     };
   }
 
-  async request(path: `/api/v1/me/${string}` | `/api/v1/institutional/change-impact/${string}` | `/api/v1/institutional/ai-query${string}` | `/api/v1/institutional/capacity${string}` | `/api/v1/institutional/cohorts${string}`, init: RequestInit = {}): Promise<Response> {
+  async request(path: `/api/v1/${string}`, init: RequestInit = {}): Promise<Response> {
     const token = await this.tokens.getAccessToken();
     if (!token) throw new AuthenticatedApiError("UNAUTHENTICATED", 401);
 
@@ -74,7 +74,7 @@ export class AuthenticatedApiClient {
   }
 
   private async send(
-    path: `/api/v1/me/${string}` | `/api/v1/institutional/change-impact/${string}` | `/api/v1/institutional/ai-query${string}` | `/api/v1/institutional/capacity${string}` | `/api/v1/institutional/cohorts${string}`,
+    path: `/api/v1/${string}`,
     init: RequestInit,
     token: string,
   ): Promise<Response> {

@@ -17,6 +17,7 @@ from app.core.config import settings
 @dataclass(frozen=True)
 class CurrentUser:
     user_id: str
+    email: str | None = None
 
 
 _bearer = HTTPBearer(auto_error=False)
@@ -52,4 +53,5 @@ async def get_current_user(
     except ValueError:
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Invalid authentication") from None
     request.state.auth_ms = round((perf_counter() - auth_started) * 1000, 1)
-    return CurrentUser(normalized_user_id)
+    email = body.get("email") if isinstance(body, dict) else None
+    return CurrentUser(normalized_user_id, email if isinstance(email, str) else None)

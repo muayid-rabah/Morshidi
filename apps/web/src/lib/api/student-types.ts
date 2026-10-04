@@ -556,6 +556,13 @@ export type DashboardError =
   | "CONFIGURATION_ERROR"
   | "UNKNOWN";
 
+export interface AcademicPeriodOption {
+  id: string;
+  code: string;
+  label: string;
+  is_current: boolean;
+}
+
 export interface StudentPolicyPassage {
   id: string;
   locator_text: string;

@@ -25,6 +25,7 @@ import type {
   SemesterPlanRequest,
   SemesterPlannerResponse,
   StudentIntentResponse,
+  AcademicPeriodOption,
   StudentPolicyDocumentDetail,
   StudentPolicyDocumentSummary,
   StudentPolicyAnswerResponse,
@@ -51,6 +52,11 @@ async function parseJson<T>(response: Response): Promise<T> {
 
 export class StudentApiService {
   constructor(private readonly client: AuthenticatedApiClient) {}
+
+  async getAcademicPeriods(): Promise<AcademicPeriodOption[]> {
+    const res = await this.client.request("/api/v1/periods");
+    return parseJson<AcademicPeriodOption[]>(res);
+  }
 
   async getProfile(): Promise<AcademicProfileResponse> {
     const res = await this.client.request("/api/v1/me/academic-profile");

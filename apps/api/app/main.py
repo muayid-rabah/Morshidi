@@ -110,6 +110,10 @@ from app.offerings.provider import UnavailableOfferingProvider
 from app.p11_intelligence.fake_provider import FakeP11Provider
 from app.p11_intelligence.providers import UnavailableP11Provider
 from app.p16_sandbox import SandboxOfferingProvider, SandboxSISAdapter
+from app.university_sync.client import HttpUniversityOfferingProvider, UniversityContractClient
+from app.university_sync.routes import router as university_sync_router
+from app.university_sync.event_routes import router as university_event_router
+from app.university_sync.events import UniversityEventStore
 
 
 def build_advisor_providers(client: httpx.AsyncClient):
@@ -175,6 +179,13 @@ async def lifespan(application: FastAPI):
     application.state.academic_compute_limiter = academic_compute_limiter
     application.state.catalog_http_client = client
     application.state.auth_http_client = client
+    application.state.university_contract = (
+        UniversityContractClient(client) if settings.uni_base_url and settings.uni_service_key else None
+    )
+    application.state.university_event_store = (
+        UniversityEventStore(settings.supabase_url, settings.supabase_secret_key.get_secret_value(), client)
+        if settings.supabase_url and settings.supabase_secret_key else None
+    )
     application.state.eligibility_service = None
     application.state.student_service = None
     application.state.advisor_service = None
@@ -190,6 +201,8 @@ async def lifespan(application: FastAPI):
     application.state.advisor_authorization_service = None
     application.state.change_impact_service = None
     application.state.course_offering_provider = (
+        HttpUniversityOfferingProvider(application.state.university_contract, settings.uni_university_id)
+        if application.state.university_contract and settings.uni_university_id else
         FakeUniversityOfferingProvider() if settings.app_env in {"development", "test"}
         else UnavailableOfferingProvider()
     )
@@ -320,6 +333,8 @@ app.add_middleware(
 app.add_middleware(RequestTimingMiddleware)
 
 app.include_router(health_router)
+app.include_router(university_sync_router)
+app.include_router(university_event_router)
 app.include_router(eligibility_router)
 app.include_router(student_router)
 app.include_router(advisor_router)
