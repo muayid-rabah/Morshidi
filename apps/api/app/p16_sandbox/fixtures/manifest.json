@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "fixture_version": "2026.10.02.v1",
+  "institution_id": "morshidi-sandbox",
+  "institution_name": "جامعة مرشدي — البيئة التجريبية",
+  "institution_name_en": "Morshidi University (Sandbox)",
+  "plan_id": "12",
+  "plan_title": "الخطة الدراسية لبكالوريوس الذكاء الاصطناعي - خطة 12",
+  "total_plan_credits": 132,
+  "synthetic": true,
+  "source": "MORSHIDI_SANDBOX_UNIVERSITY",
+  "student_count": 5,
+  "course_count": 68,
+  "offering_count": 204,
+  "active_term": {
+    "term_id": "2026-1",
+    "name": "2026/2027 - الفصل الأول",
+    "is_current": true
+  },
+  "endpoints": {
+    "manifest": "/api/v1/manifest.json",
+    "students": "/api/v1/students.json",
+    "courses": "/api/v1/courses.json",
+    "offerings": "/api/v1/offerings.json",
+    "academic_records": "/api/v1/academic-records.json"
+  }
+}

@@ -1,0 +1,1298 @@
+{
+  "schema_version": "1.0.0",
+  "fixture_version": "2026.10.02.v1",
+  "institution_id": "morshidi-sandbox",
+  "records": [
+    {
+      "student_id": "202310001",
+      "program_id": "IT",
+      "major_id": "AI",
+      "plan_id": "12",
+      "plan_version_id": "PLAN-12-V1",
+      "earned_credits": 96,
+      "cumulative_gpa": 93.6,
+      "semesters": [
+        {
+          "semester_id": "2023-1",
+          "semester_name": "2023/2024 - الفصل الأول",
+          "registered_hours": 16,
+          "passed_hours": 16,
+          "semester_gpa": 92.4,
+          "cumulative_gpa": 92.4
+        },
+        {
+          "semester_id": "2023-2",
+          "semester_name": "2023/2024 - الفصل الثاني",
+          "registered_hours": 18,
+          "passed_hours": 18,
+          "semester_gpa": 94.6,
+          "cumulative_gpa": 93.5
+        },
+        {
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول",
+          "registered_hours": 18,
+          "passed_hours": 18,
+          "semester_gpa": 93.1,
+          "cumulative_gpa": 93.4
+        },
+        {
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني",
+          "registered_hours": 18,
+          "passed_hours": 18,
+          "semester_gpa": 94,
+          "cumulative_gpa": 93.6
+        },
+        {
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول",
+          "registered_hours": 16,
+          "passed_hours": 16,
+          "semester_gpa": 93.8,
+          "cumulative_gpa": 93.6
+        }
+      ],
+      "attempts": [
+        {
+          "course_code": "0200104",
+          "course_name": "التربية الوطنية",
+          "credits": 3,
+          "numeric_grade": 90,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-1",
+          "semester_name": "2023/2024 - الفصل الأول"
+        },
+        {
+          "course_code": "0200110",
+          "course_name": "العلوم العسكرية",
+          "credits": 3,
+          "numeric_grade": 88,
+          "letter_grade": "A-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-1",
+          "semester_name": "2023/2024 - الفصل الأول"
+        },
+        {
+          "course_code": "0300153",
+          "course_name": "تفاضل وتكامل (1)",
+          "credits": 3,
+          "numeric_grade": 85,
+          "letter_grade": "B+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-1",
+          "semester_name": "2023/2024 - الفصل الأول"
+        },
+        {
+          "course_code": "1501110",
+          "course_name": "برمجة الحاسوب (1)",
+          "credits": 3,
+          "numeric_grade": 94,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-1",
+          "semester_name": "2023/2024 - الفصل الأول"
+        },
+        {
+          "course_code": "1501111",
+          "course_name": "مختبر برمجة الحاسوب (1)",
+          "credits": 1,
+          "numeric_grade": 95,
+          "letter_grade": "A+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-1",
+          "semester_name": "2023/2024 - الفصل الأول"
+        },
+        {
+          "course_code": "0200153",
+          "course_name": "المهارات الحياتية",
+          "credits": 1,
+          "numeric_grade": 92,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-1",
+          "semester_name": "2023/2024 - الفصل الأول"
+        },
+        {
+          "course_code": "0200105",
+          "course_name": "مهارات الاتصال والتواصل (اللغة العربية 1)",
+          "credits": 2,
+          "numeric_grade": 87,
+          "letter_grade": "B+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-1",
+          "semester_name": "2023/2024 - الفصل الأول"
+        },
+        {
+          "course_code": "1501112",
+          "course_name": "برمجة الحاسوب (2)",
+          "credits": 3,
+          "numeric_grade": 96,
+          "letter_grade": "A+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-2",
+          "semester_name": "2023/2024 - الفصل الثاني"
+        },
+        {
+          "course_code": "1501113",
+          "course_name": "مختبر برمجة الحاسوب (2)",
+          "credits": 1,
+          "numeric_grade": 94,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-2",
+          "semester_name": "2023/2024 - الفصل الثاني"
+        },
+        {
+          "course_code": "0300220",
+          "course_name": "رياضيات متقطعة",
+          "credits": 3,
+          "numeric_grade": 91,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-2",
+          "semester_name": "2023/2024 - الفصل الثاني"
+        },
+        {
+          "course_code": "0301245",
+          "course_name": "الجبر الخطي",
+          "credits": 3,
+          "numeric_grade": 88,
+          "letter_grade": "A-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-2",
+          "semester_name": "2023/2024 - الفصل الثاني"
+        },
+        {
+          "course_code": "0200106",
+          "course_name": "مهارات الاتصال والتواصل (اللغة الانجليزية 1)",
+          "credits": 3,
+          "numeric_grade": 90,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-2",
+          "semester_name": "2023/2024 - الفصل الثاني"
+        },
+        {
+          "course_code": "1505101",
+          "course_name": "البرمجة بلغة بايثون",
+          "credits": 3,
+          "numeric_grade": 98,
+          "letter_grade": "A+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-2",
+          "semester_name": "2023/2024 - الفصل الثاني"
+        },
+        {
+          "course_code": "0400202",
+          "course_name": "الريادة والابتكار",
+          "credits": 2,
+          "numeric_grade": 92,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2023-2",
+          "semester_name": "2023/2024 - الفصل الثاني"
+        },
+        {
+          "course_code": "1501221",
+          "course_name": "تراكيب البيانات",
+          "credits": 3,
+          "numeric_grade": 89,
+          "letter_grade": "A-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1505201",
+          "course_name": "مقدمة في الذكاء الاصطناعي",
+          "credits": 3,
+          "numeric_grade": 95,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "0300104",
+          "course_name": "الإحصاء والاحتمالات",
+          "credits": 3,
+          "numeric_grade": 84,
+          "letter_grade": "B",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1501222",
+          "course_name": "نظم قواعد البيانات",
+          "credits": 3,
+          "numeric_grade": 93,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "0200111",
+          "course_name": "الثقافة الاسلامية وقضايا العصر",
+          "credits": 3,
+          "numeric_grade": 92,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1506180",
+          "course_name": "برمجة ويب (1)",
+          "credits": 3,
+          "numeric_grade": 90,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1505311",
+          "course_name": "تعلم الالة",
+          "credits": 3,
+          "numeric_grade": 96,
+          "letter_grade": "A+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1501321",
+          "course_name": "تصميم وتحليل الخوارزميات",
+          "credits": 3,
+          "numeric_grade": 88,
+          "letter_grade": "A-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1505223",
+          "course_name": "برمجة وأدوات الذكاء الإصطناعي",
+          "credits": 3,
+          "numeric_grade": 94,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1501340",
+          "course_name": "شبكات الحاسوب",
+          "credits": 3,
+          "numeric_grade": 90,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "0200215",
+          "course_name": "لغة انجليزية لأغراض خاصة بتكنولوجيا المعلومات (ESP-IT)",
+          "credits": 3,
+          "numeric_grade": 92,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1505333",
+          "course_name": "علم البيانات وتحليلها",
+          "credits": 3,
+          "numeric_grade": 93,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1505467",
+          "course_name": "مشروع (1) في الذكاء الاصطناعي",
+          "credits": 1,
+          "numeric_grade": 95,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "1501430",
+          "course_name": "نظم التشغيل",
+          "credits": 3,
+          "numeric_grade": 87,
+          "letter_grade": "B+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "1503270",
+          "course_name": "مقدمة لهندسة البرمجيات",
+          "credits": 3,
+          "numeric_grade": 91,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "1505381",
+          "course_name": "مقدمة في الروبوتات",
+          "credits": 3,
+          "numeric_grade": 90,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "1501385",
+          "course_name": "برمجة الهواتف الذكية",
+          "credits": 3,
+          "numeric_grade": 92,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "0200113",
+          "course_name": "تاريخ الاردن وفلسطين",
+          "credits": 3,
+          "numeric_grade": 94,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        }
+      ],
+      "current_registered_sections": [
+        {
+          "id": "SEC-1505468-1",
+          "course_code": "1505468",
+          "course_name": "مشروع (2) في الذكاء الاصطناعي",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. سامر العلي",
+          "days": "الخميس (مشروع - يوم واحد)",
+          "days_array": [
+            "الخميس"
+          ],
+          "start_time": "13:00",
+          "end_time": "15:00",
+          "room": "مبنى IT - مختبر الذكاء الاصطناعي 1"
+        },
+        {
+          "id": "SEC-1505461-1",
+          "course_code": "1505461",
+          "course_name": "الرؤية الحاسوبية",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. نور حداد",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:00",
+          "room": "مبنى IT - قاعة IT-201"
+        },
+        {
+          "id": "SEC-1505415-1",
+          "course_code": "1505415",
+          "course_name": "التعلم العميق التطبيقي",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. رامي منصور",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "11:00",
+          "end_time": "12:00",
+          "room": "مبنى IT - مدرج الخوارزمي"
+        },
+        {
+          "id": "SEC-1505441-1",
+          "course_code": "1505441",
+          "course_name": "معالجة اللغات الطبيعية",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. خلدون القضاة",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "08:30",
+          "end_time": "10:00",
+          "room": "مبنى IT - قاعة IT-101"
+        },
+        {
+          "id": "SEC-1505480-1",
+          "course_code": "1505480",
+          "course_name": "البيانات الضخمة",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. بلال السعدي",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "room": "مبنى IT - قاعة IT-102"
+        }
+      ]
+    },
+    {
+      "student_id": "202410002",
+      "program_id": "IT",
+      "major_id": "AI",
+      "plan_id": "12",
+      "plan_version_id": "PLAN-12-V1",
+      "earned_credits": 52,
+      "cumulative_gpa": 84,
+      "semesters": [
+        {
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول",
+          "registered_hours": 16,
+          "passed_hours": 16,
+          "semester_gpa": 84.8,
+          "cumulative_gpa": 84.8
+        },
+        {
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني",
+          "registered_hours": 16,
+          "passed_hours": 16,
+          "semester_gpa": 83.2,
+          "cumulative_gpa": 84
+        }
+      ],
+      "attempts": [
+        {
+          "course_code": "0200104",
+          "course_name": "التربية الوطنية",
+          "credits": 3,
+          "numeric_grade": 84,
+          "letter_grade": "B",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "0300153",
+          "course_name": "تفاضل وتكامل (1)",
+          "credits": 3,
+          "numeric_grade": 80,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1501110",
+          "course_name": "برمجة الحاسوب (1)",
+          "credits": 3,
+          "numeric_grade": 91,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1501111",
+          "course_name": "مختبر برمجة الحاسوب (1)",
+          "credits": 1,
+          "numeric_grade": 92,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "0200105",
+          "course_name": "مهارات الاتصال والتواصل (اللغة العربية 1)",
+          "credits": 3,
+          "numeric_grade": 88,
+          "letter_grade": "A-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "0200110",
+          "course_name": "العلوم العسكرية",
+          "credits": 3,
+          "numeric_grade": 85,
+          "letter_grade": "B+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1501112",
+          "course_name": "برمجة الحاسوب (2)",
+          "credits": 3,
+          "numeric_grade": 86,
+          "letter_grade": "B+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1501113",
+          "course_name": "مختبر برمجة الحاسوب (2)",
+          "credits": 1,
+          "numeric_grade": 90,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "0300220",
+          "course_name": "رياضيات متقطعة",
+          "credits": 3,
+          "numeric_grade": 82,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "0301245",
+          "course_name": "الجبر الخطي",
+          "credits": 3,
+          "numeric_grade": 85,
+          "letter_grade": "B+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1505101",
+          "course_name": "البرمجة بلغة بايثون",
+          "credits": 3,
+          "numeric_grade": 92,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "0200106",
+          "course_name": "مهارات الاتصال والتواصل (اللغة الانجليزية 1)",
+          "credits": 3,
+          "numeric_grade": 80,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        }
+      ],
+      "current_registered_sections": [
+        {
+          "id": "SEC-1505311-1",
+          "course_code": "1505311",
+          "course_name": "تعلم الالة",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. سامر العلي",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "10:00",
+          "end_time": "11:00",
+          "room": "مبنى IT - مدرج الخوارزمي"
+        },
+        {
+          "id": "SEC-1501222-1",
+          "course_code": "1501222",
+          "course_name": "نظم قواعد البيانات",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. عماد النجار",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "11:30",
+          "end_time": "13:00",
+          "room": "مبنى IT - قاعة IT-203"
+        },
+        {
+          "id": "SEC-1501340-1",
+          "course_code": "1501340",
+          "course_name": "شبكات الحاسوب",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. نور حداد",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "room": "مبنى IT - قاعة IT-101"
+        },
+        {
+          "id": "SEC-1505223-1",
+          "course_code": "1505223",
+          "course_name": "برمجة وأدوات الذكاء الإصطناعي",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "م. أسامة التميمي",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "room": "مبنى IT - مختبر الذكاء الاصطناعي 2"
+        },
+        {
+          "id": "SEC-0200215-1",
+          "course_code": "0200215",
+          "course_name": "لغة انجليزية لأغراض خاصة بتكنولوجيا المعلومات (ESP-IT)",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. فيصل الزعبي",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "08:00",
+          "end_time": "09:00",
+          "room": "مبنى العلوم - قاعة 104"
+        }
+      ]
+    },
+    {
+      "student_id": "202410003",
+      "program_id": "IT",
+      "major_id": "AI",
+      "plan_id": "12",
+      "plan_version_id": "PLAN-12-V1",
+      "earned_credits": 41,
+      "cumulative_gpa": 70.4,
+      "semesters": [
+        {
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول",
+          "registered_hours": 15,
+          "passed_hours": 12,
+          "semester_gpa": 67.2,
+          "cumulative_gpa": 67.2
+        },
+        {
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني",
+          "registered_hours": 16,
+          "passed_hours": 16,
+          "semester_gpa": 73.5,
+          "cumulative_gpa": 70.4
+        }
+      ],
+      "attempts": [
+        {
+          "course_code": "0200104",
+          "course_name": "التربية الوطنية",
+          "credits": 3,
+          "numeric_grade": 76,
+          "letter_grade": "C+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "0300153",
+          "course_name": "تفاضل وتكامل (1)",
+          "credits": 3,
+          "numeric_grade": 68,
+          "letter_grade": "D+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1501110",
+          "course_name": "برمجة الحاسوب (1)",
+          "credits": 3,
+          "numeric_grade": 78,
+          "letter_grade": "C+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1501111",
+          "course_name": "مختبر برمجة الحاسوب (1)",
+          "credits": 1,
+          "numeric_grade": 80,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "0200105",
+          "course_name": "مهارات الاتصال والتواصل (اللغة العربية 1)",
+          "credits": 3,
+          "numeric_grade": 75,
+          "letter_grade": "C",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "0200106",
+          "course_name": "مهارات الاتصال والتواصل (اللغة الانجليزية 1)",
+          "credits": 2,
+          "numeric_grade": 54,
+          "letter_grade": "F",
+          "source_status": "راسب",
+          "outcome": "FAILED",
+          "semester_id": "2024-1",
+          "semester_name": "2024/2025 - الفصل الأول"
+        },
+        {
+          "course_code": "1501112",
+          "course_name": "برمجة الحاسوب (2)",
+          "credits": 3,
+          "numeric_grade": 77,
+          "letter_grade": "C+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1501113",
+          "course_name": "مختبر برمجة الحاسوب (2)",
+          "credits": 1,
+          "numeric_grade": 82,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "0300220",
+          "course_name": "رياضيات متقطعة",
+          "credits": 3,
+          "numeric_grade": 73,
+          "letter_grade": "C",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "0301245",
+          "course_name": "الجبر الخطي",
+          "credits": 3,
+          "numeric_grade": 75,
+          "letter_grade": "C",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "1505101",
+          "course_name": "البرمجة بلغة بايثون",
+          "credits": 3,
+          "numeric_grade": 85,
+          "letter_grade": "B+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        },
+        {
+          "course_code": "0200110",
+          "course_name": "العلوم العسكرية",
+          "credits": 3,
+          "numeric_grade": 82,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2024-2",
+          "semester_name": "2024/2025 - الفصل الثاني"
+        }
+      ],
+      "current_registered_sections": [
+        {
+          "id": "SEC-1501222-1",
+          "course_code": "1501222",
+          "course_name": "نظم قواعد البيانات",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. عماد النجار",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "11:30",
+          "end_time": "13:00",
+          "room": "مبنى IT - قاعة IT-203"
+        },
+        {
+          "id": "SEC-1501340-1",
+          "course_code": "1501340",
+          "course_name": "شبكات الحاسوب",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. نور حداد",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "room": "مبنى IT - قاعة IT-101"
+        },
+        {
+          "id": "SEC-1506180-1",
+          "course_code": "1506180",
+          "course_name": "برمجة ويب (1)",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. رانية حداد",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:00",
+          "room": "مبنى IT - قاعة IT-201"
+        },
+        {
+          "id": "SEC-1506181-1",
+          "course_code": "1506181",
+          "course_name": "مختبر برمجة ويب (1)",
+          "section_number": 1,
+          "credits": 1,
+          "instructor": "م. ليلى الشريف",
+          "days": "الأربعاء (لاب - يوم واحد)",
+          "days_array": [
+            "الأربعاء"
+          ],
+          "start_time": "14:30",
+          "end_time": "16:30",
+          "room": "مبنى IT - مختبر البرمجيات 1"
+        },
+        {
+          "id": "SEC-0200106-1",
+          "course_code": "0200106",
+          "course_name": "مهارات الاتصال والتواصل (اللغة الانجليزية 1)",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. سهى المجالي",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "11:00",
+          "end_time": "12:00",
+          "room": "مبنى الآداب - قاعة 302"
+        }
+      ]
+    },
+    {
+      "student_id": "202510004",
+      "program_id": "IT",
+      "major_id": "AI",
+      "plan_id": "12",
+      "plan_version_id": "PLAN-12-V1",
+      "earned_credits": 20,
+      "cumulative_gpa": 82.5,
+      "semesters": [
+        {
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول",
+          "registered_hours": 16,
+          "passed_hours": 16,
+          "semester_gpa": 82.5,
+          "cumulative_gpa": 82.5
+        }
+      ],
+      "attempts": [
+        {
+          "course_code": "1501110",
+          "course_name": "برمجة الحاسوب (1)",
+          "credits": 3,
+          "numeric_grade": 88,
+          "letter_grade": "A-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "1501111",
+          "course_name": "مختبر برمجة الحاسوب (1)",
+          "credits": 1,
+          "numeric_grade": 90,
+          "letter_grade": "A",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "0300153",
+          "course_name": "تفاضل وتكامل (1)",
+          "credits": 3,
+          "numeric_grade": 80,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "0200105",
+          "course_name": "مهارات الاتصال والتواصل (اللغة العربية 1)",
+          "credits": 3,
+          "numeric_grade": 85,
+          "letter_grade": "B+",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "0200106",
+          "course_name": "مهارات الاتصال والتواصل (اللغة الانجليزية 1)",
+          "credits": 3,
+          "numeric_grade": 82,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        },
+        {
+          "course_code": "0301245",
+          "course_name": "الجبر الخطي",
+          "credits": 3,
+          "numeric_grade": 81,
+          "letter_grade": "B-",
+          "source_status": "ناجح",
+          "outcome": "PASSED",
+          "semester_id": "2025-1",
+          "semester_name": "2025/2026 - الفصل الأول"
+        }
+      ],
+      "current_registered_sections": [
+        {
+          "id": "SEC-1501221-1",
+          "course_code": "1501221",
+          "course_name": "تراكيب البيانات",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. بلال السعدي",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "08:00",
+          "end_time": "09:00",
+          "room": "مبنى IT - مدرج ابن الهيثم"
+        },
+        {
+          "id": "SEC-0300220-1",
+          "course_code": "0300220",
+          "course_name": "رياضيات متقطعة",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. علاء الرواشدة",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "08:30",
+          "end_time": "10:00",
+          "room": "مبنى العلوم - قاعة 201"
+        },
+        {
+          "id": "SEC-1505101-1",
+          "course_code": "1505101",
+          "course_name": "البرمجة بلغة بايثون",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. سامر العلي",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "10:00",
+          "end_time": "11:00",
+          "room": "مبنى IT - قاعة IT-101"
+        },
+        {
+          "id": "SEC-1505201-1",
+          "course_code": "1505201",
+          "course_name": "مقدمة في الذكاء الاصطناعي",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. رامي منصور",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "11:30",
+          "end_time": "13:00",
+          "room": "مبنى IT - قاعة IT-203"
+        },
+        {
+          "id": "SEC-0200104-1",
+          "course_code": "0200104",
+          "course_name": "التربية الوطنية",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. فيصل الزعبي",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "room": "مبنى الخوارزمي - قاعة 101"
+        },
+        {
+          "id": "SEC-0200153-1",
+          "course_code": "0200153",
+          "course_name": "المهارات الحياتية",
+          "section_number": 1,
+          "credits": 1,
+          "instructor": "د. طارق بني حمد",
+          "days": "الخميس (نشاط - يوم واحد)",
+          "days_array": [
+            "الخميس"
+          ],
+          "start_time": "13:00",
+          "end_time": "15:00",
+          "room": "المجمع الرياضي والصحي"
+        }
+      ]
+    },
+    {
+      "student_id": "202610005",
+      "program_id": "IT",
+      "major_id": "AI",
+      "plan_id": "12",
+      "plan_version_id": "PLAN-12-V1",
+      "earned_credits": 0,
+      "cumulative_gpa": 0,
+      "semesters": [],
+      "attempts": [],
+      "current_registered_sections": [
+        {
+          "id": "SEC-1501110-1",
+          "course_code": "1501110",
+          "course_name": "برمجة الحاسوب (1)",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. نور حداد",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "09:00",
+          "end_time": "10:00",
+          "room": "مبنى IT - مدرج الخوارزمي"
+        },
+        {
+          "id": "SEC-1501111-1",
+          "course_code": "1501111",
+          "course_name": "مختبر برمجة الحاسوب (1)",
+          "section_number": 1,
+          "credits": 1,
+          "instructor": "م. أسامة التميمي",
+          "days": "الاثنين (لاب - يوم واحد)",
+          "days_array": [
+            "الاثنين"
+          ],
+          "start_time": "14:30",
+          "end_time": "16:30",
+          "room": "مبنى IT - مختبر البرمجيات 2"
+        },
+        {
+          "id": "SEC-0300153-1",
+          "course_code": "0300153",
+          "course_name": "اساسيات تكنولوجيا المعلومات",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. علاء الرواشدة",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "08:00",
+          "end_time": "09:00",
+          "room": "مبنى العلوم - قاعة 101"
+        },
+        {
+          "id": "SEC-0200110-1",
+          "course_code": "0200110",
+          "course_name": "العلوم العسكرية",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. خالد المصري",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "room": "مبنى الهاشمي - مدرج 1"
+        },
+        {
+          "id": "SEC-0200105-1",
+          "course_code": "0200105",
+          "course_name": "مهارات الاتصال والتواصل (اللغة العربية 1)",
+          "section_number": 1,
+          "credits": 3,
+          "instructor": "د. محمود عبيدات",
+          "days": "ح ث خ",
+          "days_array": [
+            "الأحد",
+            "الثلاثاء",
+            "الخميس"
+          ],
+          "start_time": "11:00",
+          "end_time": "12:00",
+          "room": "مبنى الآداب - قاعة 302"
+        },
+        {
+          "id": "SEC-0200153-1",
+          "course_code": "0200153",
+          "course_name": "المهارات الحياتية",
+          "section_number": 1,
+          "credits": 1,
+          "instructor": "د. طارق بني حمد",
+          "days": "الخميس (نشاط - يوم واحد)",
+          "days_array": [
+            "الخميس"
+          ],
+          "start_time": "13:00",
+          "end_time": "15:00",
+          "room": "المجمع الرياضي والصحي"
+        },
+        {
+          "id": "SEC-0400202-1",
+          "course_code": "0400202",
+          "course_name": "الريادة والابتكار",
+          "section_number": 1,
+          "credits": 1,
+          "instructor": "د. هبة القاسم",
+          "days": "ن ر",
+          "days_array": [
+            "الاثنين",
+            "الأربعاء"
+          ],
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "room": "مبنى الخوارزمي - قاعة 104"
+        }
+      ]
+    }
+  ]
+}

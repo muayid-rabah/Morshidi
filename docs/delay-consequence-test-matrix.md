@@ -1,0 +1,32 @@
+# Delay Consequence V1 Test Matrix
+
+Contract version: **1.0**. These are mandatory P4.2 pure-engine contract cases. Fixtures use normalized synthetic models; example course identities are symbolic and never hardcode Plan 12 behavior.
+
+| ID | Scenario | Input facts | Expected state | Required reasons / facets | Invariants |
+|---|---|---|---|---|---|
+| DELAY-T01 | Mandatory course with direct dependents | Required target A is selected in baseline; verified B requires A; no OR substitute | `MODELED_STRUCTURAL_IMPACT` | `DELAY_DIRECT_DEPENDENCY_AFFECTED`; B in direct list at depth 1 | Current facts unchanged; B transition derives through Phase 5 semantics |
+| DELAY-T02 | Mandatory course with multi-level dependents | Verified B requires A and C requires B | `MODELED_STRUCTURAL_IMPACT` | Direct B; transitive C depth 2; direct and transitive reasons | Graph depth is not a semester/calendar delta; evidence path A-B-C retained |
+| DELAY-T03 | Elective with substitute | Elective A is delayed; same group can still be satisfied by eligible B; no unique A dependency | `NO_MODELED_STRUCTURAL_IMPACT` | `DELAY_ELECTIVE_SUBSTITUTE_AVAILABLE`, `DELAY_NO_MODELED_STRUCTURAL_IMPACT` | A is not treated as mandatory; group remains satisfiable |
+| DELAY-T04 | Elective with no substitute | Delayed elective A is necessary to close remaining group need in compared horizon | `MODELED_STRUCTURAL_IMPACT` | Requirement impact plus `DELAY_REQUIREMENT_PROGRESS_AFFECTED`; credit reason if applicable | Impact comes from group semantics, not elective-list membership alone |
+| DELAY-T05 | Zero-credit required course | Required A has zero credits and is necessary for group satisfaction or downstream B | `MODELED_STRUCTURAL_IMPACT` | Requirement and/or direct impact; credit delta may be zero | Zero credits never suppress mandatory or dependency consequence |
+| DELAY-T06 | Referenced-only dependency | Referenced-only R is an evidence node in verified chain; plan target A depends on R | Per verified scenario | R may appear in evidence path only | R creates no plan credit/group impact and cannot be requested as delay target |
+| DELAY-T07 | Referenced-only target request | Requested target R is not a selected-plan member | `INSUFFICIENT_DATA` | `DELAY_CONTEXT_INSUFFICIENT`; missing valid target membership | No fake membership, progress, or recommendation context |
+| DELAY-T08 | No downstream dependency | Target A has no verified downstream edge and omission changes no requirement/path facet | `NO_MODELED_STRUCTURAL_IMPACT` | `DELAY_NO_MODELED_STRUCTURAL_IMPACT` | Complete available comparison required before no-impact claim |
+| DELAY-T09 | Source conflict | A or material downstream relation is `source_conflict` | `REVIEW_REQUIRED` | `DELAY_RULE_REVIEW_REQUIRED`; exact Phase 5 review evidence | No edge, substitute, or consequence is inferred from raw text |
+| DELAY-T10 | Unresolved prerequisite | Material target/dependent rule is `unresolved` or incomplete verified model | `REVIEW_REQUIRED` | `DELAY_RULE_REVIEW_REQUIRED` | Verified independent facts may remain listed; overall state stays conservative |
+| DELAY-T11 | Modeled path unchanged | Complete structural and Phase 9 comparisons have no permitted difference | `NO_MODELED_STRUCTURAL_IMPACT` | `DELAY_MODELED_PATH_UNCHANGED`, `DELAY_NO_MODELED_STRUCTURAL_IMPACT`; path comparison present | Same constraints and source versions; Phase 9 invoked, not duplicated |
+| DELAY-T12 | Modeled path changed | Both paths comparable; omission changes modeled set count, credits, blockers, termination, or canonical path | `MODELED_STRUCTURAL_IMPACT` | `DELAY_MODELED_PATH_CHANGED` plus exact deltas | Never label as guaranteed graduation/calendar delay |
+| DELAY-T13 | Current `IN_PROGRESS` target | Persisted target A is in progress | `REVIEW_REQUIRED` | `DELAY_TARGET_IN_PROGRESS_UNRESOLVED`; limitation | Do not assume pass, failure, or a second registration |
+| DELAY-T14 | Already `PASSED` target | Current state already completes A | `NO_MODELED_STRUCTURAL_IMPACT` | `DELAY_TARGET_ALREADY_COMPLETED` | Delay does not reverse authoritative completion |
+| DELAY-T15 | No attempt history | Valid required target A, complete catalog, verified direct dependent B, and no attempts | `MODELED_STRUCTURAL_IMPACT` | `DELAY_DIRECT_DEPENDENCY_AFFECTED`; current attempt set remains empty | Absence of history is not automatically insufficient when structural inputs suffice |
+| DELAY-T16 | Partial required context | Missing plan membership, current progress, dependency graph, or required versions | `INSUFFICIENT_DATA` | `DELAY_CONTEXT_INSUFFICIENT`; exact missing inputs | No partial-data zero-impact claim |
+| DELAY-T17 | Optional Phase 9 context absent | Complete structural inputs; no path constraints/result context | Structural state from available facets | Path comparison absent with limitation | Structural analysis remains valid; no fabricated path delta |
+| DELAY-T18 | Verified OR dependency substitute | B requires A OR X and X is already passed | `NO_MODELED_STRUCTURAL_IMPACT` unless another facet differs | Substitute evidence; no direct impact for B | AND/OR is delegated to Phase 5 evaluation |
+| DELAY-T19 | Multi-group dependency | B requires A and X in separate groups; X missing in both scenarios | No direct transition for B from delaying A alone | No false direct-impact code for B | Dependency occurrence is not an eligibility transition |
+| DELAY-T20 | Deterministic permutations | Same logical attempts/edges supplied in different orders | Identical result | Identical sorted codes, depths, paths, evidence, versions | Bit-for-bit semantic equality |
+| DELAY-T21 | Current facts versus modeled consequences | Delay scenario changes modeled credits/groups | `MODELED_STRUCTURAL_IMPACT` | Modeled deltas labeled; current facts retained | No modeled outcome appears as an authoritative attempt |
+| DELAY-T22 | Plan isolation | Same course code appears in two plans with different rules | Result uses selected plan only | Evidence references selected plan/version | No cross-plan dependency or progress leakage |
+
+## Cross-cutting P4.2 assertions
+
+Every scenario must also prove: no write or persistence; no database or LLM call inside the engine; stable output ordering; exact policy/source versions; minimized evidence; raw-grade invariance; Phase 5 decision invariance; Phase 6 current-progress invariance; no Plan 12 constant; authoritative versus simulated provenance; and unchanged input objects.

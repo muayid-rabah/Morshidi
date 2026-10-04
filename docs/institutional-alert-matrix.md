@@ -1,0 +1,19 @@
+# Institutional Alert Matrix
+
+Policy version: **1.0**  
+Phase: **P7.1 — Policy and Contracts Only**  
+Namespace: `INST_ALERT_*`
+
+All alerts in this matrix represent deterministic, derived operational conditions. They do not trigger automated actions, do not assign arbitrary qualitative severity scores (e.g., "Critical" or "Emergency"), and have zero side-effects (`side_effects = NONE`).
+
+---
+
+| Alert ID | Condition Category | Trigger Condition | Source Signal | Privacy Rule | Missing Data Behavior | Review Requirement | User-Safe Meaning | Forbidden Claim | Side Effect |
+|---|---|---|---|---|---|---|---|---|---|
+| `INST_ALERT_CAPACITY_DEFICIT_DETECTED` | `CAPACITY_MISMATCH` | `declared_demand > supplied_capacity` | `INST_SIG_DECLARED_CAPACITY_DEFICIT` | Withheld if demand is suppressed | Evaluates to `INSUFFICIENT_DATA` if capacity missing | Academic/departmental review of section capacity recommended | Declared student registration intent exceeds published seat capacity | "System will automatically open a new section"; "Class is overenrolled" | `NONE` |
+| `INST_ALERT_ZERO_CAPACITY_WITH_DEMAND` | `CAPACITY_MISMATCH` | `supplied_capacity == 0` AND `declared_demand > 0` | `INST_SIG_SUPPLIED_CAPACITY_COUNT`, `INST_SIG_DECLARED_DEMAND_COUNT` | Withheld if demand is suppressed | Not triggered if capacity fact is missing | Requires academic confirmation on whether course is offered | Students have declared intent for a course currently listed with zero capacity | "Course has been cancelled"; "Registrar made an error" | `NONE` |
+| `INST_ALERT_STRUCTURAL_BOTTLENECK_PRESSURE` | `STRUCTURAL_PRESSURE` | `structural_gateway_status == STRUCTURAL_GATEWAY` AND `declared_capacity_deficit > 0` AND unsuppressed | `INST_SIG_STRUCTURAL_BOTTLENECK_STATUS`, `INST_SIG_DECLARED_CAPACITY_DEFICIT` | Withheld if demand is suppressed | Inactive if capacity missing or deficit $\le 0$ | High-priority curriculum and section capacity review recommended | A mandatory curricular gateway course is experiencing declared capacity pressure | "Students will drop out if not scheduled"; "Critical curricular failure" | `NONE` |
+| `INST_ALERT_REVIEW_REQUIRED_PRESENT` | `WORKLOAD_FLAG` | `review_required_intent_owner_count > 0` AND unsuppressed | `INST_SIG_REVIEW_REQUIRED_INTENT_OWNER_COUNT` | Withheld if count is suppressed ($0 < n < k$); never leaks presence of hidden population | Inactive if all current submissions are clean | Requires assignment of academic reviewers to review queue | One or more student intent declarations require human academic review due to prerequisite ambiguities | "Advising office is understaffed"; "System rejected student plans"; "Advising crisis" | `NONE` |
+| `INST_ALERT_CAPACITY_DATA_MISSING` | `DATA_HYGIENE` | `capacity_fact is None` for analyzed course in target period AND course is not verified `NOT_OFFERED` | `INST_SIG_SUPPLIED_CAPACITY_COUNT` | Public hygiene fact; zero student dependency; immune to demand leakage | Triggers whenever capacity fact is absent for requested course scope, unless course is explicitly verified `NOT_OFFERED` (where capacity is structurally `NOT_APPLICABLE`) | Institutional data steward action required to supply capacity data | Seat capacity information has not been published or verified for this course (when course is offered or offering status is unverified) | "Course has unlimited seats"; "Course has zero seats" | `NONE` |
+| `INST_ALERT_OFFERING_DATA_MISSING` | `DATA_HYGIENE` | `offering_fact is None` for analyzed course or target period | `DataQualityFlag.MISSING_OFFERING_DATA` | Public hygiene fact; zero student dependency; immune to demand leakage | Triggers whenever timetable schedule is absent for requested course/period scope | Departmental coordinator action required to upload timetable | Course timetable schedule is not yet verified for the target planning period | "Courses are not being offered"; "Registration is cancelled" | `NONE` |
+

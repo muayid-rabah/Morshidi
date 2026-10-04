@@ -1,0 +1,832 @@
+[
+  {
+    "code": "0200104",
+    "name": "التربية الوطنية",
+    "credits": 3,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200105",
+    "name": "مهارات الاتصال والتواصل (اللغة العربية 1)",
+    "credits": 3,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0200150",
+      "0201001"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200106",
+    "name": "مهارات الاتصال والتواصل (اللغة الانجليزية 1)",
+    "credits": 3,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0200151",
+      "0202001"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200110",
+    "name": "العلوم العسكرية",
+    "credits": 3,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200111",
+    "name": "الثقافة الاسلامية وقضايا العصر",
+    "credits": 3,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200115",
+    "name": "تنمية المجتمع والعمل التطوعي",
+    "credits": 0,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200153",
+    "name": "المهارات الحياتية",
+    "credits": 1,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200154",
+    "name": "القيادة والمسؤولية المجتمعية",
+    "credits": 1,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0400202",
+    "name": "الريادة والابتكار",
+    "credits": 1,
+    "group": "متطلبات الجامعة الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200113",
+    "name": "تاريخ الاردن وفلسطين",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200114",
+    "name": "القدس تاريخ وحضارة",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200122",
+    "name": "مبادئ علم التربية",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200125",
+    "name": "مبادئ علم القانون",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200127",
+    "name": "اخلاقيات الطالب الجامعي",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200130",
+    "name": "جرائم الارهاب",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200156",
+    "name": "التنمية والبيئة",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300123",
+    "name": "مبادئ علم الفلك",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300124",
+    "name": "الثقافة العلمية",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300157",
+    "name": "الثقافة الرقمية",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300161",
+    "name": "الاسعافات الاولية",
+    "credits": 3,
+    "group": "متطلبات الجامعة الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300153",
+    "name": "اساسيات تكنولوجيا المعلومات",
+    "credits": 3,
+    "group": "متطلبات الكلية الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300154",
+    "name": "اساسيات الامن السيبراني",
+    "credits": 3,
+    "group": "متطلبات الكلية الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300155",
+    "name": "تصميم المنطق الرقمي",
+    "credits": 3,
+    "group": "متطلبات الكلية الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300220",
+    "name": "رياضيات متقطعة",
+    "credits": 3,
+    "group": "متطلبات الكلية الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0300153"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1501110",
+    "name": "برمجة الحاسوب (1)",
+    "credits": 3,
+    "group": "متطلبات الكلية الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0300153"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1501112",
+    "name": "برمجة الحاسوب (2)",
+    "credits": 3,
+    "group": "متطلبات الكلية الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501110"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1501221",
+    "name": "تراكيب البيانات",
+    "credits": 3,
+    "group": "متطلبات الكلية الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501112"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1509999",
+    "name": "حلقة بحث لطلبة كلية تكنولوجيا المعلومات",
+    "credits": 0,
+    "group": "متطلبات الكلية الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0200215",
+    "name": "لغة انجليزية لأغراض خاصة بتكنولوجيا المعلومات (ESP-IT)",
+    "credits": 3,
+    "group": "المتطلبات المساندة",
+    "type": "مساند",
+    "prerequisites": [
+      "0200106"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300101",
+    "name": "التفاضل والتكامل 1",
+    "credits": 3,
+    "group": "المتطلبات المساندة",
+    "type": "مساند",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0300104",
+    "name": "الاحصاء والاحتمالات لتكنولوجيا المعلومات",
+    "credits": 3,
+    "group": "المتطلبات المساندة",
+    "type": "مساند",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "0301245",
+    "name": "الجبر الخطي لتكنولوجيا المعلومات",
+    "credits": 3,
+    "group": "المتطلبات المساندة",
+    "type": "مساند",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1501212",
+    "name": "برمجة مرئية",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1501222"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1501360",
+    "name": "مناهج واخلاقيات البحث العلمي",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1501385",
+    "name": "برمجة الهواتف الذكية",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1501112"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505211",
+    "name": "لغات خاصة في البرمجة",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1501112"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505303",
+    "name": "المنطق الضبابي",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "0300220"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505351",
+    "name": "علم الإدراك",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1505201"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505365",
+    "name": "استرجاع المعلومات",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1501222"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505414",
+    "name": "تعلم الالة التطبيقي",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1505311"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505435",
+    "name": "موضوعات خاصة في الذكاء الاصطناعي (1)",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505436",
+    "name": "موضوعات خاصة في الذكاء الاصطناعي (2)",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505480",
+    "name": "البيانات الضخمة",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1501222"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505482",
+    "name": "برمجة الروبوتات",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1505381"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1506493",
+    "name": "إنترنت الأشياء",
+    "credits": 3,
+    "group": "متطلبات التخصص الاختيارية",
+    "type": "اختياري",
+    "prerequisites": [
+      "1501340"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1501111",
+    "name": "مختبر برمجة الحاسوب (1)",
+    "credits": 1,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0300153"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "عملي"
+  },
+  {
+    "code": "1501113",
+    "name": "مختبر برمجة الحاسوب (2)",
+    "credits": 1,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501111"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "عملي"
+  },
+  {
+    "code": "1501222",
+    "name": "نظم قواعد البيانات",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501112"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1501321",
+    "name": "تصميم وتحليل الخوارزميات",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501221"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1501340",
+    "name": "شبكات الحاسوب",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501112"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1501430",
+    "name": "نظم التشغيل",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501221"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1503270",
+    "name": "مقدمة لهندسة البرمجيات",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0300153"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1505101",
+    "name": "البرمجة بلغة بايثون",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501110"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505201",
+    "name": "مقدمة في الذكاء الاصطناعي",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0300153"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1505223",
+    "name": "برمجة وأدوات الذكاء الإصطناعي",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1505101"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505311",
+    "name": "تعلم الالة",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1505101",
+      "1505201"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1505320",
+    "name": "تعلم الآلة المتقدم",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0300103",
+      "1505311"
+    ],
+    "review_required": true,
+    "review_reason": "المتطلب السابق 0300103 بحاجة لمعادلة مع 0300104 (الإحصاء والاحتمالات)",
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505333",
+    "name": "علم البيانات وتحليلها",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501222"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1505366",
+    "name": "معالجة الصور الرقمية",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "0301241",
+      "1505101"
+    ],
+    "review_required": true,
+    "review_reason": "المتطلب السابق 0301241 بحاجة لمعادلة مع 0301245 (الجبر الخطي)",
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505367",
+    "name": "تدريب ميداني في الذكاء الاصطناعي",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "عملي"
+  },
+  {
+    "code": "1505381",
+    "name": "مقدمة في الروبوتات",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1505201"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1505415",
+    "name": "التعلم العميق التطبيقي",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1505311"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505441",
+    "name": "معالجة اللغات الطبيعية",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1505311"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505461",
+    "name": "الرؤية الحاسوبية",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1505366",
+      "1505415"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "التعلم القائم على المشاريع"
+  },
+  {
+    "code": "1505467",
+    "name": "مشروع (1) في الذكاء الاصطناعي",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "عملي"
+  },
+  {
+    "code": "1505468",
+    "name": "مشروع (2) في الذكاء الاصطناعي",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1505467"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "عملي"
+  },
+  {
+    "code": "1506180",
+    "name": "برمجة ويب (1)",
+    "credits": 3,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501110"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "نظري"
+  },
+  {
+    "code": "1506181",
+    "name": "مختبر برمجة ويب (1)",
+    "credits": 1,
+    "group": "متطلبات التخصص الإجبارية",
+    "type": "إجباري",
+    "prerequisites": [
+      "1501111"
+    ],
+    "review_required": false,
+    "review_reason": null,
+    "learning_type": "عملي"
+  }
+]
